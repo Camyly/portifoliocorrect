@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-weight: 700
+}
+
+body {
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwNzg1MTMxOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+}
+
+.caixamaior {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.inputcity {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 17px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 70px);
+}
+
+.buscar {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+
+}
+
+.ft {
+    width: 20px;
+
+}
+
+.cidade {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+
+}
+
+.Tempo {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.caixamenor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.textprev {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.UMIDADE {
+    color: #fff;
+    margin-top: 20px;
+}
